@@ -59,7 +59,7 @@ const { data: newsConditionMaster } = await useFetch(
   `${config.public.kurocoApiDomain}/rcms-api/1/master`,
   {
     credentials: "include",
-    server: false,
+    // server: false,
   }
 );
 </script>
