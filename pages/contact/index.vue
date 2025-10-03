@@ -281,7 +281,7 @@ const { data: response } = await useFetch(
   `${config.public.kurocoApiDomain}/rcms-api/1/inquiry/1`,
   {
     credentials: "include",
-    server: false,
+    // server: false,
   }
 );
 
